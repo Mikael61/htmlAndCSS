@@ -7,52 +7,50 @@
         <meta http-equiv="Content-Type" content="text/html;
             charset=utf-8" />
         <style type="text/css">
-            body {
+          body {
                 width: 70% ;
                 counter-reset : section ; }
-         h1 { font-variant : small-caps}
-            
-            h2 { 
+          h1 { font-variant : small-caps}
+          h2 { 
             counter-reset : subsection ;
-           
-           }
-           h2:before
-    {
-    counter-increment:section;
-    content:counter(section) ". ";
-        font-weight:bold;
-    }
-    h3:before
-    {
-    counter-increment:subsection;
-    content:counter(section) "." counter(subsection) " ";
-    }
-    .abstract:before {
-    content:"";
-    counter-reset : section ; 
-    }
-    .refs:before {
-    content:"";
-    }
-     .articlename:before {
-            content:open-quote
-            }
-            .articlename:after {
-            content:close-quote
-            }
-      .authors { font-weight : bold}
-           
-        .opening { text-align : center}
-#p1 {float : left } 
-#p2 {float : right }
-.name:after {content: '\A';
-    white-space: pre;}
-    .e-mail:after {content: '\A';
-    white-space: pre;}
-    .date {clear : both }
-    .person { width : 40% }
-    .ref {margin : 1em 0em 0em 0em}
-        </style>
+               }
+          h2:before
+           {
+          counter-increment:section;
+          content:counter(section) ". ";
+          font-weight:bold;
+          }
+          h3:before
+          {
+          counter-increment:subsection;
+          content:counter(section) "." counter(subsection) " ";
+          }
+          .abstract:before {
+          content:"";
+          counter-reset : section ; 
+          }
+          .refs:before {
+          content:"";
+          }
+          .articlename:before {
+          content:open-quote
+          }
+          .articlename:after {
+          content:close-quote
+          }
+         .authors { font-weight : bold}
+         .opening { text-align : center}
+         #p1 {float : left } 
+         #p2 {float : right }
+         .name:after {content: '\A';
+          white-space: pre;}
+         .e-mail:after {content: '\A';
+          white-space: pre;}
+         .date {clear : both }
+         .person { width : 40% }
+         .ref {margin : 1em 0em 0em 0em}
+        
+      </style>
     </head>
     <body>
         <div>
